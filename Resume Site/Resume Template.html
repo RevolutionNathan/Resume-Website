@@ -9,42 +9,59 @@
 
 	
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
 	<link rel="stylesheet" type="text/css" href="Resume.css">
 
 </head>
 
 <body>
-	
-		<div class="col-sm-1">
-			<ul class="nav tabs">
-				<li class="nav-item">
-					<a class="nav-link" href="Resume Home.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="Resume Projects.html">Projects</a>
-				</li>
-				<li class="nav-item"> 
-					<a class="nav-link" href="Resume Fun.html">Fun</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="Resume About Me.html">About</a>
-				</li>
-			</ul>
-		</div>
-	
-
-		<div class="col-sm-11 videoContainer">
+		<div class="videoContainer">
 			<video playsinline autoplay="autoplay" muted="" loop="loop" poster="Cloud Frame.jpg" id="bgvid">
     			<source src="Resume Cloud.webm" type="video/webm">
   				<source src="Resume Cloud.mp4" type="video/mp4">
 			</video>	
-
-			<h1>Home:</h1>
-
 		</div>
 
-	
+		<header> 
+		<div class="row">
+           <div class="col-sm-12">
+             <div class="header">
+               	<ul class="nav nav-tabs">
+          			<li class="nav-item">
+          			<div class="dropdown">
+    					<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">About
+  						  <span class="caret"></span></button>
+  							  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+							      <li role="presentation"><a role="menuitem" tabindex="-1" href="Resume About Me.html">About</a></li>
+							      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+							      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+							      <li role="presentation" class="divider"></li>
+							      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+    						</ul>
+						  </div>
+						</div>
+              			<a class="nav-link" href=""><img src="about blue.png">about</a>
+            		</li>
+        		</ul>
+        	</div>
+        </div>	
+      </div>
+    </header>
+      
+			<div class="col-sm-3">
+				<div class="row">
+				<img src="tiny house.png" class="align-center img-responsive">
+				</div>
+				
+				<h1>HOME</h1>
+			</div>
+
+			<div class="col-sm-9 borderLeft">
+				<p class="paragraphText">Home is where the heart is and where the head is. Ideas live here. Plans grow here. This is where imagination becomes reality. From this ground I reach for the clouds. These are the ideas I live with. This is my home.</p>
+			</div>
 		
+
+
 		
 
 </body>

@@ -6,83 +6,63 @@ video#bgvid {
     background: url(Cloud Frame.jpg) no-repeat;
     background-size: cover; 
     object-fit: cover;
-}
-
-.col-sm-1 {
-    background-color: #e0ebeb;
-    min-height: 100vh;
-    position: relative;
-    margin top: 0px;
-    margin left: 20px;
-    margin right: 0pc;
-    margin bottom: 0pc;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 20px;
-}
-
-.col-sm-11 {
     padding-left: 0px;
-}
-
-a:link {
-    color: #537979;
-    font-size: 18px;
-    font-weight: bold;
-
-}
- 
-a:active {
-    color: green;
-} 
-
-a.current:link, a.current:visited {
-  color: white;
-  background-color: blue;
 }
 
 h1 {
-    color: #537979;
-    opacity: .75;
-    font-size: 30vw;
-    text-decoration: none;
-    font-weight: lighter;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    text-align: center;
-}   
-
-.vertical{
    -webkit-transform:rotate(90deg);
    -moz-transform:rotate(90deg);
    -o-transform: rotate(90deg);
    -ms-transform:rotate(90deg);
    transform: rotate(90deg);
-   white-space: nowrap;
-   display:block;
-   width: 50px;
-   height: 0px;
-   font-size: 5vw;
-   float:right;
-   margin-top: 20px;
-   margin-left: 20px;
-   padding-left: 20px;
-   padding-top: 20px;
-   color: #537979;
-   font-weight: lighter;
-   opacity: 1;
-   position: absolute;
-   top: 5;
-   right: 0;
+   font-size: 19vw;
+   color: white;
+   font-weight: 500;
+   opacity: .75;
+   padding-top:0vw;
+   margin-top: 0vw;
+   margin-left: 0vw;
+   padding-left: 0vw
+   z-index: 1;
+   position: relative;
+  
+}   
+
+.paragraphText{
+    color: white;
+    opacity: .75;
+    font-size: 5.5vw;
+    text-decoration: none;
+    font-weight: 200;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vw;
 }
 
-.navSpacing {
-    padding-bottom: 12vw;
-    padding-top: 8vw;
+.borderLeft{
+    border-left: 4px solid #537979;
+
 }
 
+.header{
+    background: white;
+    opacity: .75;
 
+}
+
+a {
+    margin-left: 150px;
+}
+
+img {
+    opacity: .75;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.nav li a{
+    color: #537979;
+    opacity: .75;
+    font-weight: 400;
+}
